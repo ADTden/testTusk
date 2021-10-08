@@ -16,3 +16,4 @@ foreach ($data as $user) {
 	}
 }
 $result = mysqli_query($link, "INSERT INTO `todos_bd` (`login`, `password`) VALUES ('$loginUser', '$passUser')");
+//Комментарий
