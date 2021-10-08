@@ -58,4 +58,5 @@ if ($_GET['tusk'] == "redact") {
 		echo ("<a href='?page=" . ($i + 1) . "&order=" . $_GET['order'] . "&orderColum=" . $_GET['orderColum'] . "'>" . ($i + 1) . "</a>");
 	} ?>
 </div>
-<? include($_SERVER['DOCUMENT_ROOT'] . "/footer.php"); ?>
+<? include($_SERVER['DOCUMENT_ROOT'] . "/footer.php"); //Комментарий 
+?>
