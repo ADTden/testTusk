@@ -59,4 +59,5 @@ if ($_GET['tusk'] == "redact") {
 	} ?>
 </div>
 <? include($_SERVER['DOCUMENT_ROOT'] . "/footer.php"); //Комментарий 
+//Второй комментарий
 ?>
