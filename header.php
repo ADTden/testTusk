@@ -38,9 +38,13 @@ for ($data = []; $row = mysqli_fetch_assoc($result); $data[] = $row);
 			<a class="btn btn-outline-primary" href=" /forms/logIn.php">Войти</a>
 		<? } ?>
 	</div>
+<<<<<<< HEAD
 	<div>
 		Privet
 		<p>
 			Kak dela
 		</p>
 	</div>
+=======
+	<div>Privet</div>
+>>>>>>> master
